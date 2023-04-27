@@ -1,0 +1,108 @@
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 2em;
+  box-shadow: 5px 1px 10px rgb(223, 222, 222)
+}
+
+.hero--container{
+  display: grid;
+  padding: 2em 1em;
+}
+
+.hero--grid{
+  max-width: 400px;
+  justify-self: center;
+  padding-block: 1em;
+}
+
+.hero--detail{
+  width: 50%;
+  padding-left: 2em;
+  color: #222222;
+}
+
+.hero--heading{
+  font-size: 3em;
+  padding-left: .6em;
+  margin-block: 0;
+  letter-spacing: 2px;
+}
+
+.card--container{
+  display: flex;
+  flex-direction: column;
+  max-width: 230px;
+}
+
+.rating--container{
+  display: flex;
+  align-items: center;
+}
+
+.card--rating{
+  margin-left: 5px;
+}
+
+.card--title{
+  margin-block: 0;
+}
+
+.card--image{
+  border-radius: .8em;
+}
+
+.card--location{
+  background-color: lightgray;
+  align-self: flex-start;
+  display: inline-block;
+  position: relative;
+  top: 40px;
+  left: 10px;
+  padding: .2em;
+  border-radius: 4px;
+}
+
+.cards--container{
+  display: flex;
+  padding: 0 2em;
+  gap: 1em;
+}
